@@ -1,0 +1,15 @@
+Scratch file for Database creation
+
+-- Master Database will be PostgreSQL
+
+
+First Major thing is creating user details -- decide on schema for user details
+
+create table cloud.users(id bigserial,
+                  user_id text primary key,
+                  user_name text not null,
+                  user_mail text not null,
+                  user_age int,
+                  user_sex text,
+                  user_occupatiom text
+                  );
